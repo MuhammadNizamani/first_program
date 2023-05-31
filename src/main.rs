@@ -1,4 +1,10 @@
+fn add_num(num1: i32, num2: i32) -> i32 {
+    let sum = num1 + num2;
+    sum
+}
 fn main() {
+    let result = add_num(3, 4);
+    println!("The sum is: {}", result);
     for number in 1..=3{
         let pi:f32 = 3.14;
         let name: &str = "ishaque";
