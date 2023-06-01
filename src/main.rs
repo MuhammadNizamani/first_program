@@ -3,6 +3,7 @@ fn add_num(num1: i32, num2: i32) -> i32 {
     sum
 }
 fn main() {
+    print!("This works is just to get fimilar with RUST");
     let result = add_num(3, 4);
     println!("The sum is: {}", result);
     for number in 1..=3{
